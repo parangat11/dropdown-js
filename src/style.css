@@ -1,5 +1,11 @@
+:root {
+    --dropdown-width: 150px;
+    --dropdown-options-width: 143px;
+    --font-size: 1.45rem;
+}
+
 .dropdown {
-    font-size: 1.45rem;
+    font-size: var(--font-size);
     display: flex;
     flex-direction: column;
 }
@@ -9,8 +15,8 @@
 }
 
 .dropdown-button {
-    font-size: 1.45rem;
-    width: 150px;
+    font-size: var(--font-size);
+    width: var(--dropdown-width);
 }
 
 .open > .options {
@@ -20,6 +26,6 @@
 
 .option {
     border: solid;
-    width:143px;
+    width: var(--dropdown-options-width);
     text-align: center;
 }
