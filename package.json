@@ -2,7 +2,11 @@
   "name": "@parangat11/dropdown",
   "version": "1.0.3",
   "description": "A template for future Vanilla projects",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "style": "dist/style.css",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
