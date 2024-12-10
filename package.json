@@ -1,6 +1,6 @@
 {
   "name": "@parangat11/dropdown",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A template for future Vanilla projects",
   "main": "dist/index.js",
   "style": "dist/style.css",
