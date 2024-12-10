@@ -1,0 +1,25 @@
+.dropdown {
+    font-size: 1.45rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown > .options {
+    display: none;
+}
+
+.dropdown-button {
+    font-size: 1.45rem;
+    width: 150px;
+}
+
+.open > .options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    border: solid;
+    width:143px;
+    text-align: center;
+}
