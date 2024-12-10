@@ -1,2 +1,2 @@
-# template-js
-A template for future Vanilla projects
+# dropdown-js
+A dropdown made using vanilla JS
