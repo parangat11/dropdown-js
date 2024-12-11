@@ -1,6 +1,6 @@
 import "./style.css"
 
-export default function setupDropdowns() {
+function setupDropdowns() {
     const dropdowns = document.querySelectorAll(".dropdown");
     
     dropdowns.forEach(dropdown => {
@@ -38,3 +38,5 @@ export default function setupDropdowns() {
         })
     })
 }
+
+module.exports = setupDropdowns;
