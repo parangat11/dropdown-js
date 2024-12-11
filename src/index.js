@@ -39,4 +39,4 @@ function setupDropdowns() {
     })
 }
 
-module.exports = setupDropdowns;
+export default setupDropdowns;
